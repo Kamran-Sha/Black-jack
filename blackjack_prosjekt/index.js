@@ -13,6 +13,8 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
 
+document.getElementById("bntStart").addEventListener("click", startGame)
+document.getElementById("bntNewCard").addEventListener("click", newCard)
 playerEl.textContent = player.name + ": $" + player.chips
 
 function getRandomCard() {
