@@ -1,0 +1,41 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("Bjack.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(138, 33, 1);
+    animation-name: ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;}
+
+    @keyframes ani {
+        0%   {color:rgb(138, 33, 1); left:0px; top:0px;}
+       
+        35% {color:goldenrod; left:0px; top:0px;}
+    }
+
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+button:hover{
+    color: white;
+}
